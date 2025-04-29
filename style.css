@@ -4,6 +4,37 @@
     margin: 0;
 }
 
+body {
+    background-color: hsl(185, 75%, 39%);
+}
+
+.container {
+    position: relative;
+    width: 350px;
+    background-color: white;
+    margin: 200px auto 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-image {
+    position: absolute;
+    top: 23%;
+    border: 5px solid white;
+    border-radius: 100px;
+}
+
+.content {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr; */
+
+    margin-top: 60px;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
