@@ -6,13 +6,19 @@
 
 body {
     background-color: hsl(185, 75%, 39%);
+    font-family: "Kumbh Sans";
 }
 
 .container {
     position: relative;
     width: 350px;
     background-color: white;
+    border-radius: 10px;
     margin: 200px auto 10px;
+}
+
+.banner-image {
+    border-radius: 10px 10px 0 0;
 }
 
 .image-container {
@@ -31,8 +37,75 @@ body {
     /* display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr; */
-
+    text-align: center;
     margin-top: 60px;
+}
+
+.name,
+.quantity {
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.age {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+
+.location {
+    color: hsl(227, 10%, 46%);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.stats {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "80k 803k 14k"
+        "followers likes photos"; */
+    border-top: 1px solid hsl(0, 0%, 59%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* 
+.quantity:first-child {
+    grid-area: 80k;
+}
+
+.subtitle:nth-child(2) {
+    grid-area: followers;
+}
+
+.quantity:nth-child(3) {
+    grid-area: 803k;
+}
+
+.subtitle:nth-child(4) {
+    grid-area: likes;
+}
+
+.quantity:nth-child(5) {
+    grid-area: 14k;
+}
+
+.subtitle:nth-child(6) {
+    grid-area: photos;
+} */
+
+.subtitle {
+    color: hsl(227, 10%, 46%);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 
 .attribution {
